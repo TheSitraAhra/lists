@@ -43,6 +43,9 @@
 				"avatar_match": [
 					{
 						"avatar_hash": "ff23afc9171254c67d43a1fbf1fbf4c8a57380ba"
+					},
+					{
+						"avatar_hash": "4ec814f626c909c68d2c0aa5513d578252aa4ace"
 					}
 				],
 				"mode": "match_all",
