@@ -1,0 +1,51 @@
+	{
+	"$schema": "https://raw.githubusercontent.com/PazerOP/tf2_bot_detector/master/schemas/v3/rules.schema.json",
+	"rules": [
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "Vinesauce",
+			"triggers": {
+				"avatar_match": [
+					{
+						"avatar_hash": "3af1a61bd066eb4b0fcc73f9b971c5c893248470"
+					}
+				],
+				"mode": "match_all",
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"Vinesauce"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "DoesHotter",
+			"triggers": {
+				"avatar_match": [
+					{
+						"avatar_hash": "ff23afc9171254c67d43a1fbf1fbf4c8a57380ba"
+					}
+				],
+				"mode": "match_all",
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"DoesHotter"
+					]
+				}
+			}
+		}
+	]
+}
